@@ -32,3 +32,66 @@ header> h3{
     max-width: 80px;
     min-height: 70px;
 }
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    flex-direction: column;
+}
+
+.saying{
+    position: relative;
+}
+
+.quote{
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    width: 50%;
+    padding-bottom: 0.75em;
+    border-bottom: 1px solid #39b54a;
+}
+
+h1{
+    font-size: 300%;
+}
+
+.author{
+    position: absolute;
+    padding: 1.5em;
+    right: 3em;
+    top: 11em;
+    background-color: #f0f0f0;
+}
+
+.container{
+    position: relative;
+}
+
+.product{
+    max-width: 510px;
+    height: 510px;
+}
+
+.number{
+    max-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    background-color: yellow;
+    font-size: 2em;
+    padding-left: 0.3em;
+    padding-top: 0.2em;
+}
+
+.no2{
+    background-color: orange;
+}
+
+.no3{
+    background-color: red;
+}
+
