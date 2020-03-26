@@ -75,6 +75,7 @@ h1{
 }
 
 .container> p{
+    position: relative;
     width: 50%;
 }
 
@@ -115,3 +116,22 @@ h1{
     float: right;
 }
 
+footer{
+    max-width: 1440px;
+    height: 400px;
+    background-color: #39b54a;
+    color: white;
+}
+
+.author1{
+    position: absolute;
+    padding: 1.5em;
+    right: 3em;
+    top: 13.7em;
+    background-color: #39b54a;
+}
+
+.endquote{
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid white;
+}
