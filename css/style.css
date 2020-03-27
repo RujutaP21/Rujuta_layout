@@ -93,6 +93,7 @@ h1{
     font-size: 2em;
     padding-left: 0.3em;
     padding-top: 0.2em;
+    padding-bottom: 0;
 }
 
 .no2{
@@ -105,7 +106,20 @@ h1{
 }
 
 .right{
+    position: relative;
     float: right;
+}
+
+h2{
+    position: absolute;
+    top: 2em;
+    left: 3em;
+}
+.right_title{
+    position: relative;
+    margin-top: -1em;
+    margin-left: -3em;
+    padding: 0;
 }
 
 .left{
@@ -114,6 +128,9 @@ h1{
 
 .right_text{
     float: right;
+    position: absolute;
+    top: -27em;
+    right: -5em
 }
 
 footer{
